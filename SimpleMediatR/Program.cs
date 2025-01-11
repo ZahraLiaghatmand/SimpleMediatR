@@ -1,5 +1,4 @@
-﻿
-using SimpleMediatR.Application;
+﻿using SimpleMediatR.Application;
 using SimpleMediatR.MediatR;
 
 SimplMediatR mediator = new();

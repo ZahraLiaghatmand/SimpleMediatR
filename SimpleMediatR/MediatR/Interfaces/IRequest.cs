@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SimpleMediatR.MediatR.Interfaces
+﻿namespace SimpleMediatR.MediatR.Interfaces
 {
+    //TResult is a placeholder for the type that the request will return when processed.
+    //This design allows flexibility, enabling the IRequest interface to handle various return types without knowing them in advance.
     public interface IRequest<TResult>
     {
     }
